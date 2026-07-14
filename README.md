@@ -29,7 +29,7 @@ flowchart TD
 
   G -- SHORTLIST --> H[check_availability]
   G -- not SHORTLIST --> Z[END]
-  H --> I[schedule_interview (interrupt_before)]
+  H --> I[schedule_interview]
   I --> Z[END]
 ```
 
